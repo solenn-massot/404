@@ -1,0 +1,58 @@
+h1{
+    font-family:'Press Start 2P', cursive;
+    color: #202020;
+    background-color:#aeba89;
+    margin-top: 40px;
+    font-size: 50px;
+}
+span{
+    font-family: 'Turret Road', cursive;
+    color:#5e6745;
+    font-weight:bold;
+    font-size: 40px;
+    text-align:center;
+    display:block;
+}
+body{
+    background-color:#e3eec0;
+}
+.background{
+    background-color:#aeba89;
+}
+.gameover{
+    width:114px;
+    height:168px;
+    display:block;
+    margin:auto;
+    margin-bottom:30px;
+    margin-top:30px;
+}
+h2{
+    font-family: 'Turret Road', cursive;
+    color:#5e6745;
+    font-weight:bold;
+    font-size: 40px;
+    text-align:center;
+    display:block;
+}
+a{
+    font-family:'Press Start 2P', cursive;
+     color:#aeba89;
+     font-size:20px;
+     text-decoration: none;
+}
+.Try{
+    text-align:left;
+    margin-left:30px;
+}
+.Coin{
+    text-align:left;
+    margin-left:75px
+}
+a:hover{
+    font-size:22px;
+    color:#202020
+}
+.piece{
+    margin-left:10px;
+}
