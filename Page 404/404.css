@@ -1,9 +1,28 @@
 h1{
     font-family:'Press Start 2P', cursive;
     color: #202020;
-    background-color:#aeba89;
+    text-align:center;
     margin-top: 40px;
     font-size: 50px;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+.over{
+    background-color:#aeba89;
 }
 span{
     font-family: 'Turret Road', cursive;
@@ -55,4 +74,7 @@ a:hover{
 }
 .piece{
     margin-left:10px;
+}
+a:active{
+    
 }
