@@ -8,6 +8,7 @@ h1{
     animation-name: slidein;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    transform:translateX(-1000px);
   }
   
   @keyframes slidein {
@@ -52,6 +53,8 @@ span:hover {
   }
 body{
     background-color:#e3eec0;
+    width:100%;
+    height:100%;
 }
 .background{
     background-color:#aeba89;
